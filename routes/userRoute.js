@@ -3,7 +3,7 @@ import jwt from "jsonwebtoken";
 import express from "express";
 import {auth,authorize} from "../middlewares/auth.js";
 import mongoose from "mongoose";
-const SECRET = "something";
+const SECRET = "sometext";
 import{register,login,showUsers,updateUser,deleteUser,profile} from "../controllers/userController.js";
 
 

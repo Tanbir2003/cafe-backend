@@ -1,4 +1,6 @@
 import express from "express";
+import jwt from "jsonwebtoken";
+const SECRET = "sometext";
 import bcrypt from "bcrypt";
 import userModel from "../models/userModel.js";
 import {auth, authorize} from "../middlewares/auth.js";
